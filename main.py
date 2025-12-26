@@ -8,7 +8,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.clock import Clock
 import threading
 import re
-
+ 
 # Library untuk akses fitur native Android (Bluetooth)
 from jnius import autoclass
 
@@ -163,3 +163,4 @@ class BMSAndroidApp(MDApp):
 if __name__ == "__main__":
     from kivy.uix.gridlayout import MDGridLayout # Fix import missing
     BMSAndroidApp().run()
+
